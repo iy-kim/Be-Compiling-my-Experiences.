@@ -1,16 +1,15 @@
 # header information:
-HMIPS8bits|9.08
+HMIPS8bits_iykim|9.08
 
 # Views:
 Vschematic|sch
-VVHDL|vhdl
 
 # Cell 2NAND;1{sch}
-C2NAND;1{sch}||schematic|1772292121390|1772345469637|
+C2NAND;1{sch}||schematic|1772292121390|1772292474682|
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NGround|gnd@0||-11.5|-5||||
-NTransistor|nmos@0||-13.5|-1|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
-NTransistor|nmos@1||-13.5|6|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
+NTransistor|nmos@0||-13.5|-1|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|nmos@1||-13.5|6|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NWire_Pin|pin@0||-15.5|14.5||||
 NWire_Pin|pin@1||-15.5|6||||
 NWire_Pin|pin@3||-20.5|-1||||
@@ -21,12 +20,12 @@ NWire_Pin|pin@12||-9.5|10||||
 NWire_Pin|pin@13||-29.5|-1||||
 NWire_Pin|pin@14||-7|10||||
 NWire_Pin|pin@18||-29.5|6||||
-NTransistor|pmos@0||-13.5|14.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
-NTransistor|pmos@1||-19.5|14.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S12
+NTransistor|pmos@0||-13.5|14.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
+NTransistor|pmos@1||-19.5|14.5|||R|2|ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2
 NPower|pwr@0||-14.5|20.5||||
-Ngeneric:Universal-Pin|x0|D5G1;Y1;|-29.5|6||||
-Ngeneric:Universal-Pin|x1|D5G1;Y1;|-29.5|-1||||
-Ngeneric:Universal-Pin|y0|D5G1;Y1;|-7|10||||
+Ngeneric:Universal-Pin|x0|D5G1;|-29.5|6||||
+Ngeneric:Universal-Pin|x1|D5G1;|-29.5|-1||||
+Ngeneric:Universal-Pin|y0|D5G1;|-7|10||||
 Awire|net@0|||0|pmos@0|g|-14.5|14.5|pin@0||-15.5|14.5
 Awire|net@1|||900|pin@0||-15.5|14.5|pin@1||-15.5|6
 Awire|net@2|||1800|pin@1||-15.5|6|nmos@1|g|-14.5|6
@@ -44,9 +43,4 @@ Awire|net@24|||1800|pin@11||-11.5|10|pin@12||-9.5|10
 Awire|net@25|||0|pin@3||-20.5|-1|pin@13||-29.5|-1
 Awire|net@26|||1800|pin@12||-9.5|10|pin@14||-7|10
 Awire|net@27|||0|pin@1||-15.5|6|pin@18||-29.5|6
-X
-
-# Cell 2NAND;1{vhdl}
-C2NAND;1{vhdl}||artwork|1772346416670|1772346416676|
-Ngeneric:Facet-Center|art@0||0|0||||AV
 X
